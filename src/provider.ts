@@ -1,5 +1,6 @@
 import Serverless from 'serverless';
 
+
 import { DefenderSchema, DefinitionsSchema, ResourcesSchema, FunctionSchema, ProviderSchema } from './types/schemas';
 
 export default class DefenderProvider {
