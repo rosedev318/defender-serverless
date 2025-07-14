@@ -1,6 +1,7 @@
 import { Logging } from 'serverless/classes/Plugin';
 import { DefenderAPIError } from '../types';
 
+
 export default class Logger {
   private static instance: Logger;
   private logger?: Logging;
